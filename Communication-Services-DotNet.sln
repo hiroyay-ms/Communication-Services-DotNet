@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleApp", "ConsoleApp", "{7BD116C4-68D4-4DDC-8A27-9B9CDE4052FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendEmail", "ConsoleApp\SendEmail\SendEmail.csproj", "{CEE9D155-016F-47D7-8A89-A7C49250ADA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEE9D155-016F-47D7-8A89-A7C49250ADA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE9D155-016F-47D7-8A89-A7C49250ADA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE9D155-016F-47D7-8A89-A7C49250ADA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE9D155-016F-47D7-8A89-A7C49250ADA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CEE9D155-016F-47D7-8A89-A7C49250ADA9} = {7BD116C4-68D4-4DDC-8A27-9B9CDE4052FA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEC29289-132A-4E4E-B189-F0477D329E73}
+	EndGlobalSection
+EndGlobal
