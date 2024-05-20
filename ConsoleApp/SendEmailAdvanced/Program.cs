@@ -19,7 +19,9 @@ EmailClient emailClient = new EmailClient(connectionString);
 
 var subject = "Hello from Azure Communication Services";
 var htmlContent = "<html><body><h1>Advanced send email test</h1><br /><h4>This email message is sent from Azure Communication Service Email.</h4></body></html>";
-var sender = "donotreply@hiroyay-lab.net";
+
+// Enter sender email address
+var sender = "sender email address";
 
 var emailContent = new EmailContent(subject)
 {
